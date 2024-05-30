@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:keyboard_utils_example/keyborad_bloc.dart';
-import 'package:keyboard_utils_fork/keyboard_utils.dart';
-import 'package:keyboard_utils_fork/keyboard_listener.dart'
+import 'package:keyboard_utils_example/keyboard_bloc.dart';
+import 'package:keyboard_utils_fork_plus/keyboard_utils.dart';
+import 'package:keyboard_utils_fork_plus/keyboard_listener.dart'
     as keyboard_listener;
 
 class InputPage extends StatefulWidget {

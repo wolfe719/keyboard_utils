@@ -82,8 +82,9 @@ Check the sample for more details.
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/IsaiasSantana"><img src="https://avatars3.githubusercontent.com/u/18197600?s=460&v=4" width="100px;" alt="Isaías Santana"/><br /><sub><b>Isaías Santana</b></td>
- 
-   <td align="center"><a href="https://github.com/wilfilho"><img src="https://avatars2.githubusercontent.com/u/4473670?s=400&v=4" width="100px;" alt="Will Filho"/><br /><sub><b>Will Filho</b></td>
-  </tr>
+    <td text-align="center"><a href="https://github.com/IsaiasSantana"><img src="https://avatars3.githubusercontent.com/u/18197600?s=460&v=4" width="100px;" alt="Isaías Santana"/><br /><sub><b>Isaías Santana</b></sub></a></td>
+    <td text-align="center"><a href="https://github.com/wilfilho"><img src="https://avatars2.githubusercontent.com/u/4473670?s=400&v=4" width="100px;" alt="Will Filho"/><br /><sub><b>Will Filho</b></sub></a></td>
+    <td text-align="center"><a href="https://github.com/hello-coder-xu"><img src="https://avatars.githubusercontent.com/u/19924225?s=400&v=4" width="100px;" alt="flyboy"/><br /><sub><b>flyboy</b></sub></a></td>
+    <td text-align="center"><a href="https://github.com/wolfe719"><img src="https://avatars.githubusercontent.com/u/1915771?s=400&v=4" width="100px;" alt="John Wolfe"/><br /><sub><b>John Wolfe</b></sub></a></td>
+ </tr>
 </table>

@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:keyboard_utils_fork/keyboard_utils.dart';
-import 'package:keyboard_utils_fork/keyboard_listener.dart'
+import 'package:keyboard_utils_fork_plus/keyboard_utils.dart';
+import 'package:keyboard_utils_fork_plus/keyboard_listener.dart'
     as keyboard_listener;
 
 // Sample Bloc

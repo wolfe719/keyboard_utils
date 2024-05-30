@@ -5,19 +5,19 @@ publish_to: 'none'
 version: 0.0.1+0.0.1
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
+  sdk: '^3.4.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.2
+  cupertino_icons: '^1.0.8'
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  keyboard_utils_fork:
+  keyboard_utils_fork_plus:
     path: ../
 
 flutter:
