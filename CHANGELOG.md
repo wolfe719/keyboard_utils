@@ -1,3 +1,7 @@
+## 1.1.0
+
+Updated to Flutter 3.22.0 / Dart 3.4.0, fixed Android obsolete API warnings
+
 ## 1.0.1
 
 - 解决ios编译不通过问题

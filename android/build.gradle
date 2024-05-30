@@ -1,3 +1,5 @@
+package android
+
 group 'br.com.keyboard_utils'
 version '1.0-SNAPSHOT'
 
@@ -5,7 +7,7 @@ buildscript {
     ext.kotlin_version = '1.6.10'
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
@@ -17,7 +19,7 @@ buildscript {
 rootProject.allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
 
@@ -46,5 +48,4 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
-//    implementation files('C:\\Users\\Administrator\\fvm\\default\\bin\\cache\\artifacts\\engine\\android-arm\\flutter.jar')
 }

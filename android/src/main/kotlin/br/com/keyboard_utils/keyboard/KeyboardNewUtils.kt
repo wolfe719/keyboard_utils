@@ -18,7 +18,15 @@ class KeyboardNewUtils : ViewTreeObserver.OnGlobalLayoutListener {
         this.listener = listener
         windowContentView = activity.findViewById(android.R.id.content)
         val displayMetrics = DisplayMetrics()
-        activity.windowManager.defaultDisplay.getMetrics(displayMetrics)
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R) {
+            val display = activity.display
+            display?.getRealMetrics(displayMetrics)
+        } else {
+            @Suppress("DEPRECATION")
+            val display = activity.windowManager.defaultDisplay
+            @Suppress("DEPRECATION")
+            display.getMetrics(displayMetrics)
+        }
         density = displayMetrics.density
         windowContentView?.viewTreeObserver?.addOnGlobalLayoutListener(this)
     }
@@ -34,9 +42,7 @@ class KeyboardNewUtils : ViewTreeObserver.OnGlobalLayoutListener {
         println("显示 原生 onGlobalLayout")
         val currentViewHeight = windowContentView?.height ?: 0
         val currentViewRootHeight = windowContentView?.rootView?.height ?: 0
-
-        val diffHeight = currentViewRootHeight - currentViewHeight
-
+        
         val rect = Rect()
         windowContentView?.getWindowVisibleDisplayFrame(rect)
 
